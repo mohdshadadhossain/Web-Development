@@ -75,3 +75,7 @@ body {
     font-weight: 600px;
     color: black;
 }
+#navbar li a:hover, 
+#navbar li a.active{
+  color: #088178;
+}
