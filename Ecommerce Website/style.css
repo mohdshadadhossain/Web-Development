@@ -60,6 +60,10 @@ body {
   padding: 20px 80px;
   background: white;
   box-shadow: 0 5px 15px black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 #navbar {
@@ -83,7 +87,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-  color: aquamarine;
+  color: green;
   transition: 0.3s ease;
 }
 
@@ -92,7 +96,7 @@ body {
   content: "";
   width: 30%;
   height: 2px;
-  background: aquamarine;
+  background: green;
   position: absolute;
   bottom: -4px;
   left: 20px;
@@ -119,3 +123,35 @@ body {
   font-size
 }
 
+#hero h4 {
+  padding-bottom: 15px;
+}
+
+#hero h1 {
+  color: green;
+}
+
+#hero button {
+  background-image: url("img/button.png");
+  border: none;
+  background-color: transparent;
+  color: green;
+  cursor: pointer;
+  padding: 14px 80px 14px 65px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#feature .fe-box {
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+  box-shadow:10px 10px 54px rgb(0, 0, 0 ,0.03);
+}
